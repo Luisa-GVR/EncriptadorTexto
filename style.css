@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #3f69aa;
+    font-size: 8vw; 
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 4vw;
+    }
+}
+
+
+
+textarea {
+    width: 96%;
+    min-height: 40ch;
+    min-width: 30ch;
+    margin-bottom: 1%;
+    padding: 2%; 
+    border: 1px solid #ccc;
+    border-radius: 1%;
+    resize: vertical;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    textarea {
+        padding: 1%; 
+        font-size: 1em;
+
+    } 
+
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 16px; 
+    background-color: #3f69aa;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+@media only screen and (max-width: 599px) {
+    button {
+        padding: 8px 12px; 
+        font-size: 0.9em; 
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    button {
+        padding: 6px 8px; 
+        font-size: 0.8em; 
+    }
+}
+
+@media only screen and (min-width: 1280px) and (min-height: 800px) {
+    button {
+        padding: 1vw 2vw; 
+        font-size: 1vw; 
+    }
+}
+
+button:hover {
+    background-color: #2c5177;
+}
+
+.output {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px; 
+    text-align: center; 
+    line-height: 1.5; 
+    font-size: 2.5em; 
+}
+
+@media only screen and (max-width: 700px) {
+    .output {
+        font-size: 1.5em; 
+
+    }
+
+}
